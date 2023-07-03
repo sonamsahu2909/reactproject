@@ -1,0 +1,174 @@
+/********** Template CSS **********/
+:root {
+    --primary: #820a0e;
+    --secondary: #11093c;
+    --light: #FFFFFF;
+    --dark: #171616;
+}
+.bg-primary1{
+    background-color: #820a0e !important;
+    
+}
+.text-primary1{
+    color: #820a0e !important;
+}
+.bg-secondary1{
+    background-color: #746e78;
+    color: #11093c;
+}
+.text-secondary1{
+    color: #11093c;
+
+}
+
+
+
+body{
+   background: #0f0f0f !important;
+}
+
+h1,h2,h3,h4,h5{
+   font-family: 'Pacifico';
+}
+p{
+   text-align: justify;
+   line-height: 30px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   padding-right: 5px;
+   font-size: 18px;
+   color: rgb(255, 252, 252);
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #000000c2 !important;
+    cursor: pointer;
+    }
+
+    .navbar-nav li{
+        padding: 0 10px;
+    }
+    .navbar-nav li a{
+        color: #fff !important;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .web-logo{
+        width: 150px;
+        position: relative;
+        left: 30px;    
+    }
+    
+    .mobile-logo{
+        display: none;
+    }
+
+
+    .login{
+        position: relative;
+        left: 300px;
+    }
+
+    @media(max-width:768px){
+        .web-logo{
+            display: none;
+        }
+        .mobile-logo{
+            display: block;
+        }
+        .navbar{
+            background: #fcb21c !important;
+        }
+        
+    }
+
+
+
+
+
+ /* footer css */
+
+ .img1{
+   opacity:1;
+   margin-top: 100px;
+   /* color: white;
+   height:400px;
+     width:100%; */
+}
+
+.img1 a{
+   text-decoration: none;
+   color: white;
+}
+.ts1{
+   height: 400px;
+   opacity:0.9;
+}
+
+.nl{
+   margin-top: -50px !important;
+   margin-bottom: -54px;
+   padding-top: 101px !important;
+}
+  .line-height{
+   line-height: 2;
+}
+
+
+ @media(max-width:900px)
+ {
+   .banner{
+           height: 400px;
+      }
+ }
+
+
+
+ /* footer media query */
+
+ @media(max-width:990px){
+   .img1{
+      width: 100%;
+      height: 945px;
+   }
+   .ts1{
+       margin-top: -60px;
+       height: 945px;
+       width:100%;
+       opacity:0.9;
+    }
+   .nl{
+          margin-top: 0px !important;
+          margin-bottom: -51px;
+          padding: 334px 64px !important;
+    }
+ }
+ @media(max-width:785px){
+   .img1{
+      width: 100%;
+      height: 900px;
+   }
+   .ts1{
+       margin-top: -320px;
+       height: 900px;
+       width:100%;
+       opacity:0.9;
+    }
+   .nl{
+          margin-top: 21px;
+          padding: 48px!important;
+    }
+ }
+ @media(max-width:575px){
+   .ts1{
+      margin-top: -67px;
+   }
+ }
+ @media(max-width:395px){
+   .ts1{
+      margin-top: -67px;
+   }
+ }
